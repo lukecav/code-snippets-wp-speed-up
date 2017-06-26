@@ -9,12 +9,12 @@
 <!-- 5. Upload this file using the form provided on that page. -->
 <!-- 6. Code Snippets will then import all of the snippets and associated information contained in this file into your site. -->
 <!-- 7. You will then have to visit the 'Snippets: All Snippets' admin menu and activate desired snippets. -->
-<!-- generator="Code Snippets/2.8.6" created="2017-06-25 01:58" -->
+<!-- generator="Code Snippets/2.8.6" created="2017-06-26 16:49" -->
 <snippets>
   <snippet scope="0">
     <name>Enable variable products with FacetWP</name>
     <desc></desc>
-    <tags>woocommerce</tags>
+    <tags>woocommerce, facetwp</tags>
     <code>add_filter( 'facetwp_enable_product_variations', '__return_true' );</code>
   </snippet>
 </snippets>
