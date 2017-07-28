@@ -9,12 +9,12 @@
 <!-- 5. Upload this file using the form provided on that page. -->
 <!-- 6. Code Snippets will then import all of the snippets and associated information contained in this file into your site. -->
 <!-- 7. You will then have to visit the 'Snippets: All Snippets' admin menu and activate desired snippets. -->
-<!-- generator="Code Snippets/2.8.6" created="2017-06-09 16:35" -->
+<!-- generator="Code Snippets/2.8.6" created="2017-07-28 13:41" -->
 <snippets>
   <snippet scope="2">
     <name>Disable Emojis</name>
     <desc></desc>
-    <tags></tags>
+    <tags>emoji, wordpress, performance</tags>
     <code>/**&#13;
  * Disable the emoji's&#13;
  */&#13;
@@ -27,6 +27,7 @@ function disable_emojis() {&#13;
 	remove_filter( 'comment_text_rss', 'wp_staticize_emoji' );	&#13;
 	remove_filter( 'wp_mail', 'wp_staticize_emoji_for_email' );&#13;
 	add_filter( 'tiny_mce_plugins', 'disable_emojis_tinymce' );&#13;
+	add_filter( 'wp_resource_hints', 'disable_emojis_remove_dns_prefetch', 10, 2 );&#13;
 }&#13;
 add_action( 'init', 'disable_emojis' );&#13;
 &#13;
@@ -42,6 +43,24 @@ function disable_emojis_tinymce( $plugins ) {&#13;
 	} else {&#13;
 		return array();&#13;
 	}&#13;
+}&#13;
+&#13;
+/**&#13;
+ * Remove emoji CDN hostname from DNS prefetching hints.&#13;
+ *&#13;
+ * @param  array  $urls          URLs to print for resource hints.&#13;
+ * @param  string $relation_type The relation type the URLs are printed for.&#13;
+ * @return array                 Difference betwen the two arrays.&#13;
+ */&#13;
+function disable_emojis_remove_dns_prefetch( $urls, $relation_type ) {&#13;
+	if ( 'dns-prefetch' == $relation_type ) {&#13;
+		/** This filter is documented in wp-includes/formatting.php */&#13;
+		$emoji_svg_url = apply_filters( 'emoji_svg_url', __return_false );&#13;
+&#13;
+		$urls = array_diff( $urls, array( $emoji_svg_url ) );&#13;
+	}&#13;
+&#13;
+	return $urls;&#13;
 }</code>
   </snippet>
 </snippets>
