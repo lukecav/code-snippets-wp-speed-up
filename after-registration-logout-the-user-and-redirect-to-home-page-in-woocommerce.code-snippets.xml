@@ -15,10 +15,10 @@
     <name>After registration, logout the user and redirect to home page in WooCommerce</name>
     <desc></desc>
     <tags>woocommerce, register, logout, redirect, home</tags>
-    <code>function custom_registration_redirect() {&#13;
+    <code>function wc_custom_registration_redirect() {&#13;
     wp_logout();&#13;
     return home_url('/');&#13;
 }&#13;
-add_action('woocommerce_registration_redirect', 'custom_registration_redirect', 2);</code>
+add_action('woocommerce_registration_redirect', 'wc_custom_registration_redirect', 2);</code>
   </snippet>
 </snippets>
