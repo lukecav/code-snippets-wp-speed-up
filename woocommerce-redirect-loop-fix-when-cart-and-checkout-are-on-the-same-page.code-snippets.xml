@@ -15,9 +15,9 @@
     <name>WooCommerce redirect loop fix when cart and checkout are on the same page</name>
     <desc></desc>
     <tags>redirect, loop, woocommerce, cart, checkout</tags>
-    <code>add_action('template_redirect', 'redirection_function');&#13;
+    <code>add_action('template_redirect', 'wc_redirection_function');&#13;
 &#13;
-function redirection_function(){&#13;
+function wc_redirection_function(){&#13;
     global $woocommerce;&#13;
 &#13;
     if( is_checkout() &amp;&amp; 0 == sprintf(_n('%d', '%d', $woocommerce-&gt;cart-&gt;cart_contents_count, 'woothemes'), $woocommerce-&gt;cart-&gt;cart_contents_count) &amp;&amp; !isset($_GET['key']) ) {&#13;
