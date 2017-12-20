@@ -15,7 +15,7 @@
     <name>Hide 'Extensions' menu from users in WooCommerce</name>
     <desc></desc>
     <tags>hide, extensions, menu, woocommerce</tags>
-    <code>add_filter( 'woocommerce_show_addons_page', 'wc_guy_hide_extensions_menu' );&#13;
+    <code>add_filter( 'woocommerce_show_addons_page', 'wc_hide_extensions_menu' );&#13;
 &#13;
 function wc_hide_extensions_menu( $show_addons_page ) {&#13;
 	//an array of user ids that can access the extensions menu&#13;
