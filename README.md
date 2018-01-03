@@ -1,8 +1,6 @@
 # Code Snippets WP Speed Up
 Code Snippets for WordPress and WooCommercce speed up which can be imported into the plugin.
 
-https://wordpress.org/plugins/code-snippets/
-
 For other useful code snippets for WordPress. https://github.com/senlin/Code-Snippets
 
 ## Where to Install the Code Snippets plugin from
