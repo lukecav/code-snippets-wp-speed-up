@@ -1,4 +1,4 @@
-# code-snippets-wp-speed-up
+# Code Snippets WP Speed Up
 Code Snippets for WordPress and WooCommercce speed up which can be imported into the plugin.
 
 https://wordpress.org/plugins/code-snippets/
