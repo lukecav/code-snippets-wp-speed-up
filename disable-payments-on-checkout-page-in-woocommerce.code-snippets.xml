@@ -11,7 +11,7 @@
 <!-- 7. You will then have to visit the 'Snippets: All Snippets' admin menu and activate desired snippets. -->
 <!-- generator="Code Snippets/2.9.4" created="2018-01-03 20:42" -->
 <snippets>
-  <snippet scope="1">
+  <snippet scope="2">
     <name>Disable payments on checkout page in WooCommerce</name>
     <desc></desc>
     <tags>disable, payment, gateways, woocommerce, place, order</tags>
