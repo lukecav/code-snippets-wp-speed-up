@@ -12,7 +12,7 @@
 <!-- generator="Code Snippets/2.9.4" created="2018-01-12 15:23" -->
 <snippets>
   <snippet scope="1">
-    <name>Hide tags featured and type admin columns from the page list in WooCommerce</name>
+    <name>Hide tags featured and type admin columns from the product list in WooCommerce</name>
     <desc></desc>
     <tags>hide, admin, columns, product, list, woocommerce</tags>
     <code>function unset_some_columns_in_product_list( $column_headers ) { &#13;
