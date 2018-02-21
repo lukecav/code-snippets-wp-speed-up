@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.10.1.1","date_created":"2018-02-21 19:48","snippets":[{"name":"Disable background image regeneration in WooCommerce","tags":["disable","background","image","regeneration","woocommerce"],"scope":"admin","code":"add_filter( 'woocommerce_background_image_regeneration', '__return_false' );"}]}
