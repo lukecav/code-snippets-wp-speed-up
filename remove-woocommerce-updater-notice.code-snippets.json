@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.10.1.1","date_created":"2018-04-25 20:34","snippets":[{"name":"Remove WooCommerce updater notice","tags":["woothemes","updater","admin","notice"],"scope":"admin","code":"remove_action( 'admin_notices', 'woothemes_updater_notice' );"}]}
