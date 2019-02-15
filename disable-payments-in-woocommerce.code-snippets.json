@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.13.2","date_created":"2019-02-15 19:46","snippets":[{"name":"Disable payments in WooCommerce","desc":"https:\/\/nicola.blog\/2018\/12\/01\/how-to-disable-payments-on-woocommerce\/","tags":["disable","payments","cart","woocommerce","filter"],"scope":"global","code":"add_filter( 'woocommerce_cart_needs_payment', '__return_false' );"}]}
