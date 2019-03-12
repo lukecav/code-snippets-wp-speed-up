@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.13.2","date_created":"2019-03-12 15:54","snippets":[{"name":"Disable Gutenberg Block Editor on Posts and Pages","tags":["disable","gutenberg","block","editor","posts","pages"],"scope":"admin","code":"add_filter('use_block_editor_for_post', '__return_false', 10);\r\nadd_filter('use_block_editor_for_page', '__return_false', 10);"}]}
