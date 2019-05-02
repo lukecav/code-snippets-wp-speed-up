@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.13.3","date_created":"2019-05-02 17:35","snippets":[{"name":"Stop the WooCommerce Blocks style.css from loading by default","tags":["blocks","style","gutenberg","editor","default","woocommerce"],"scope":"global","code":"wp_deregister_style( 'wc-block-style' );","priority":"10"}]}
