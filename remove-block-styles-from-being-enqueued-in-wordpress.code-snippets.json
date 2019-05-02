@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.13.3","date_created":"2019-05-02 20:02","snippets":[{"name":"Remove block styles from being enqueued in WordPress","tags":["remove","block","styles","wordpress","enqueued"],"scope":"global","code":"remove_action( 'enqueue_block_assets', 'wp_enqueue_registered_block_scripts_and_styles' );","priority":"10"}]}
