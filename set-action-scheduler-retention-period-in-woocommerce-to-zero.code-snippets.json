@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.13.3","date_created":"2019-06-12 14:40","snippets":[{"name":"Set Action Scheduler retention period in WooCommerce to zero","tags":["action","scheduler","retention","period","zero","debug","cleanup"],"scope":"admin","code":"add_filter( 'action_scheduler_retention_period', '__return_zero' );","priority":"10"}]}
