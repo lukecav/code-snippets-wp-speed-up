@@ -1,5 +1,5 @@
 # Code Snippets WP Speed Up
-Code Snippets for WordPress and WooCommercce speed up are snippet which can be easily imported into the code snippets plugin.
+Code Snippets for WordPress and WooCommercce speed up are snippets which can be easily imported into the code snippets plugin.
 
 For other useful code snippets for WordPress. https://github.com/senlin/Code-Snippets
 
