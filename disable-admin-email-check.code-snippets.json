@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.13.3","date_created":"2019-10-20 00:22","snippets":[{"name":"Disable Admin Email Check","desc":"https:\/\/make.wordpress.org\/core\/2019\/10\/17\/wordpress-5-3-admin-email-verification-screen\/","tags":["disable","admin","email","check"],"scope":"global","code":"add_filter( 'admin_email_check_interval', '__return_false' );","priority":"10"}]}
