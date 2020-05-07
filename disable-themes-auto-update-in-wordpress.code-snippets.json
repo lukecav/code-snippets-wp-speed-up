@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-05-07 15:14","snippets":[{"name":"Disable Themes Auto Update in WordPress","tags":["disable","plugins","auto","update","wordpress"],"scope":"admin","code":"add_filter( 'wp_themes_auto_update_enabled', '__return_false' )","priority":"10"}]}
