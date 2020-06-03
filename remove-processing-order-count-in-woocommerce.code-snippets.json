@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-06-03 14:12","snippets":[{"name":"Remove Processing Order Count in WooCommerce","tags":["remove","processing","order","count","woocommerce","wp-admin"],"scope":"admin","code":"add_filter( 'woocommerce_menu_order_count', 'false' );","priority":"10"}]}
