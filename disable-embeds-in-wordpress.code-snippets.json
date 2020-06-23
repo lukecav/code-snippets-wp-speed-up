@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-06-23 17:20","snippets":[{"name":"Disable Embeds in WordPress","tags":["disable","emojis","wordpress"],"scope":"global","code":"function disable_wp_embed(){\n wp_dequeue_script( 'wp-embed' );\n}\nadd_action( 'wp_footer', 'disable_wp_embed' );","priority":"10"}]}
