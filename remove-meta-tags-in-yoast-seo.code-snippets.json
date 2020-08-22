@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-08-22 21:36","snippets":[{"name":"Remove Meta Tags in Yoast SEO","tags":["remove","meta","tags","yoast","seo"],"scope":"global","code":"add_filter( 'wpseo_metadesc', '__return_false' );","priority":"10"}]}
