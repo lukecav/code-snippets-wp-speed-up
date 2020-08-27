@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-08-27 18:05","snippets":[{"name":"Remove HTML Comments in Yoast SEO","desc":"https:\/\/gist.github.com\/paulcollett\/4c81c4f6eb85334ba076#gistcomment-3303423","tags":["yoast","seo","html","comments","remove"],"scope":"global","code":"add_filter( 'wpseo_debug_markers', '__return_false' );","priority":"10"}]}
