@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-09-02 18:26","snippets":[{"name":"Disable the Nexcess Installer dashboard menu","tags":["disable","nexcess","installer","dashboard","admin menu","wordpress"],"scope":"admin","code":"add_filter( 'nexcess_mapps_show_plugin_installer\"', '__return_false' );","priority":"10"}]}
