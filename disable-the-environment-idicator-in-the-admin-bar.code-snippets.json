@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.0","date_created":"2020-11-10 18:43","snippets":[{"name":"Disable the environment idicator in the admin bar","tags":["disable","admin","bar","environment","idicator","nexcess"],"scope":"admin","code":"add_filter( 'nexcess_mapps_enable_environment_indicator', '__return_false' );","priority":"10"}]}
