@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v2.14.3","date_created":"2022-01-28 18:20","snippets":[{"name":"Disable login language selector in WordPress","desc":"https:\/\/wordpress.org\/plugins\/disable-login-language-selector\/","tags":["login","selector","language","wordpress"],"scope":"global","code":"add_filter( 'login_display_language_dropdown', '__return_false' );","priority":"10"}]}
