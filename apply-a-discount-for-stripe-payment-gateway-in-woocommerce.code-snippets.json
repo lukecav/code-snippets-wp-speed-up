@@ -1,0 +1,21 @@
+{
+  "generator": "Code Snippets v3.4.0",
+  "date_created": "2023-06-26 19:53",
+  "snippets": [
+    {
+      "id": 61,
+      "name": "Apply a discount for Stripe payment gateway in WooCommerce",
+      "code": "add_action('woocommerce_cart_calculate_fees', 'apply_stripe_discount');\nfunction apply_stripe_discount() {\n    if (is_admin() && !defined('DOING_AJAX')) {\n        return;\n    }\n\n    // Check if Stripe is the selected payment gateway\n    if (WC()->session->get('chosen_payment_method') === 'stripe') {\n        $cart_total = WC()->cart->get_cart_contents_total();\n        $discount_amount = $cart_total * 0.03; // 3% discount\n\n        // Add discount\n        WC()->cart->add_fee('Stripe Discount', -$discount_amount, true);\n    }\n}",
+      "tags": [
+        "stripe",
+        "discount",
+        "payment",
+        "method",
+        "woocommerce",
+        "wordpress"
+      ],
+      "active": true,
+      "modified": "2023-06-26 19:53:01"
+    }
+  ]
+}
