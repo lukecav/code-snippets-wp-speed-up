@@ -1,0 +1,21 @@
+{
+  "generator": "Code Snippets v3.4.0",
+  "date_created": "2023-06-26 21:02",
+  "snippets": [
+    {
+      "id": 63,
+      "name": "Disable the wincher dashboard widget from Yoast SEO",
+      "code": "function remove_wpseo_wincher_dashboard_widget() {\n    remove_meta_box('wpseo-wincher-dashboard-overview', 'dashboard', 'normal');\n}\nadd_action('wp_dashboard_setup', 'remove_wpseo_wincher_dashboard_widget');",
+      "tags": [
+        "disable",
+        "dashboard",
+        "widget",
+        "wordpress",
+        "yoast",
+        "seo"
+      ],
+      "scope": "admin",
+      "modified": "2023-06-26 21:01:50"
+    }
+  ]
+}
