@@ -1,0 +1,25 @@
+{
+  "generator": "Code Snippets v3.6.5.1",
+  "date_created": "2024-09-23 19:34",
+  "snippets": [
+    {
+      "id": 70,
+      "name": "Remove live or coming soon notice from the admin bar in WooCommerce",
+      "desc": "<p>https://gist.github.com/ChrisCree/daaa98c016d4402050e1430bf68d1ea9</p>",
+      "code": "add_action( 'admin_bar_menu', 'wc_remove_woocommerce_site_visibility_badge', 999 );\nfunction wc_remove_woocommerce_site_visibility_badge( $wp_admin_bar ) {\n    $wp_admin_bar->remove_node( 'woocommerce-site-visibility-badge' );\n}",
+      "tags": [
+        "disable",
+        "remove",
+        "admin",
+        "bar",
+        "live",
+        "notice",
+        "wordpress"
+      ],
+      "scope": "admin",
+      "active": true,
+      "modified": "2024-09-23 19:34:19",
+      "revision": "3"
+    }
+  ]
+}
