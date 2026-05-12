@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v3.9.6","date_created":"2026-05-12 21:09","snippets":[{"id":21,"name":"Remove the Liquid Web software manager in wp-admin","code":"add_action( 'admin_menu', function () {\n    remove_menu_page( 'lw-software-manager' );\n}, 999 );","active":true,"modified":"2026-05-12 21:09:31","revision":"1"}]}
