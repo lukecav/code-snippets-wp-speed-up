@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v3.9.6","date_created":"2026-06-03 21:16","snippets":[{"id":65,"name":"Disable email loggin in WooCommerce","code":"add_filter( 'woocommerce_email_log_enabled', '__return_false' );","tags":["email","loggin","woocommerce"],"modified":"2026-06-03 21:16:09","revision":"1"}]}
